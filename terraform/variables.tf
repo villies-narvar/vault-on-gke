@@ -10,16 +10,16 @@ variable "project" {
 
 variable "project_prefix" {
   type    = "string"
-  default = "vault-"
+  default = ""
 }
 
-variable "billing_account" {
-  type = "string"
-}
+#variable "billing_account" {
+#  type = "string"
+#}
 
-variable "org_id" {
-  type = "string"
-}
+#variable "org_id" {
+#  type = "string"
+#}
 
 variable "instance_type" {
   type    = "string"
